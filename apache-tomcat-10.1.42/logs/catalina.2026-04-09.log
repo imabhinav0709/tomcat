@@ -1,0 +1,49 @@
+09-Apr-2026 05:46:44.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.42
+09-Apr-2026 05:46:44.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 5 2025 22:35:46 UTC
+09-Apr-2026 05:46:44.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.42.0
+09-Apr-2026 05:46:44.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+09-Apr-2026 05:46:44.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1044-azure
+09-Apr-2026 05:46:44.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Apr-2026 05:46:44.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/sdkman/candidates/java/25.0.1-ms
+09-Apr-2026 05:46:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.1+8-LTS
+09-Apr-2026 05:46:44.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Microsoft
+09-Apr-2026 05:46:44.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /workspaces/tomcat/apache-tomcat-10.1.42
+09-Apr-2026 05:46:44.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /workspaces/tomcat/apache-tomcat-10.1.42
+09-Apr-2026 05:46:44.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/workspaces/tomcat/apache-tomcat-10.1.42/conf/logging.properties
+09-Apr-2026 05:46:44.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Apr-2026 05:46:44.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Apr-2026 05:46:44.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Apr-2026 05:46:44.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+09-Apr-2026 05:46:44.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+09-Apr-2026 05:46:44.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Apr-2026 05:46:44.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+09-Apr-2026 05:46:44.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Apr-2026 05:46:44.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Apr-2026 05:46:44.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Apr-2026 05:46:44.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Apr-2026 05:46:44.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/workspaces/tomcat/apache-tomcat-10.1.42
+09-Apr-2026 05:46:44.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/workspaces/tomcat/apache-tomcat-10.1.42
+09-Apr-2026 05:46:44.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/workspaces/tomcat/apache-tomcat-10.1.42/temp
+09-Apr-2026 05:46:44.674 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+09-Apr-2026 05:46:45.429 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Apr-2026 05:46:45.462 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2290] milliseconds
+09-Apr-2026 05:46:45.504 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Apr-2026 05:46:45.505 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.42]
+09-Apr-2026 05:46:45.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/docs]
+09-Apr-2026 05:46:46.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/docs] has finished in [1,185] ms
+09-Apr-2026 05:46:46.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/examples]
+09-Apr-2026 05:46:47.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/examples] has finished in [367] ms
+09-Apr-2026 05:46:47.071 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/manager]
+09-Apr-2026 05:46:47.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/manager] has finished in [25] ms
+09-Apr-2026 05:46:47.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/host-manager]
+09-Apr-2026 05:46:47.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/host-manager] has finished in [29] ms
+09-Apr-2026 05:46:47.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/ROOT]
+09-Apr-2026 05:46:47.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/ROOT] has finished in [27] ms
+09-Apr-2026 05:46:47.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/testapp]
+09-Apr-2026 05:46:47.194 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/workspaces/tomcat/apache-tomcat-10.1.42/webapps/testapp] has finished in [40] ms
+09-Apr-2026 05:46:47.200 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Apr-2026 05:46:47.284 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1820] milliseconds
+09-Apr-2026 05:53:27.259 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/testapp]
+09-Apr-2026 05:53:27.260 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/testapp] has started
+09-Apr-2026 05:53:27.265 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [testapp] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Apr-2026 05:53:27.305 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/testapp] is completed
