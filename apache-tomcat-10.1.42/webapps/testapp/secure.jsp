@@ -13,6 +13,9 @@
     <p>Logged in as: <strong><%= session.getAttribute("user") %></strong></p>
 
     <p><a href="students">Go to Student Servlet</a></p>
+    <p><a href="books">Go to Books Servlet (Hibernate)</a></p>
+    <p><a href="product.jsp?productId=P1001">Go to Product Detail Page</a></p>
+    <p><a href="cart.jsp">Go to Shopping Cart (JavaScript + Servlets)</a></p>
     <p><a href="logout">Logout</a></p>
 </body>
 </html>

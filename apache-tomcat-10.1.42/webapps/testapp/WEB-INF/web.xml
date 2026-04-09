@@ -24,6 +24,18 @@
         <servlet-class>StudentServlet</servlet-class>
     </servlet>
 
+    <!-- Register Hibernate-backed servlet for books listing. -->
+    <servlet>
+        <servlet-name>BookServlet</servlet-name>
+        <servlet-class>BookServlet</servlet-class>
+    </servlet>
+
+    <!-- Register shopping cart JSON API servlet. -->
+    <servlet>
+        <servlet-name>ShoppingCartServlet</servlet-name>
+        <servlet-class>ShoppingCartServlet</servlet-class>
+    </servlet>
+
     <!-- Define login URL endpoint handled by LoginServlet. -->
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -42,6 +54,18 @@
         <url-pattern>/students</url-pattern>
     </servlet-mapping>
 
+    <!-- Map /books URL to BookServlet. -->
+    <servlet-mapping>
+        <servlet-name>BookServlet</servlet-name>
+        <url-pattern>/books</url-pattern>
+    </servlet-mapping>
+
+    <!-- Map /cart-api to ShoppingCartServlet. -->
+    <servlet-mapping>
+        <servlet-name>ShoppingCartServlet</servlet-name>
+        <url-pattern>/cart-api</url-pattern>
+    </servlet-mapping>
+
     <!-- Register authentication filter that protects private resources. -->
     <filter>
         <filter-name>AuthFilter</filter-name>
@@ -54,10 +78,33 @@
         <url-pattern>/students</url-pattern>
     </filter-mapping>
 
+    <!-- Protect Hibernate books endpoint for authenticated users only. -->
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/books</url-pattern>
+    </filter-mapping>
+
     <!-- Protect JSP page for authenticated users only. -->
     <filter-mapping>
         <filter-name>AuthFilter</filter-name>
         <url-pattern>/secure.jsp</url-pattern>
+    </filter-mapping>
+
+    <!-- Protect the shopping cart page and API for authenticated users only. -->
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/cart.jsp</url-pattern>
+    </filter-mapping>
+
+    <!-- Protect the product detail page for authenticated users only. -->
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/product.jsp</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>AuthFilter</filter-name>
+        <url-pattern>/cart-api</url-pattern>
     </filter-mapping>
 
 </web-app>
